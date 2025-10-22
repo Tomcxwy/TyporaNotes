@@ -1,3 +1,5 @@
+# Git的一些常用命令
+
 ```
 # 初始化一个新的Git仓库
 git init
@@ -85,5 +87,14 @@ git push origin <tag_name>
 git push origin --delete <branch_name>
 # 删除远程仓库的分支
 
+```
+
+# gitignore不起作用
+
+```
+#运行以下代码
+git rm -r --cached .
+git add .
+git commit -m "update .gitignore"
 ```
 
